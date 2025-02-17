@@ -1,64 +1,51 @@
 # CollabSphere
 
-CollabSphere is a collaborative platform designed for seamless interaction and project management.
+## 🚀 About the Project
+**CollabSphere** is a platform that connects project leaders, developers, and investors, enabling seamless collaboration on tech-based projects. Project leaders can list project details, developers can join teams to contribute, and investors can discover and fund projects based on their interests.
 
-## Clone the Repository
+## 🎨 Frontend
+The frontend is built using **React.js**, ensuring a dynamic and user-friendly interface. It includes:
+- Interactive dashboards
+- Responsive design
+- Smooth navigation for project browsing and collaboration
 
-To get started, clone this repository using the following command:
+## 🛠️ Tech Stack
+- **Frontend**: React.js, React Router, Axios, Tailwind CSS / Bootstrap
+- **State Management**: Context API / Redux Toolkit (planned for future updates)
+- **Backend**: Node.js, Express.js, MongoDB (to be implemented)
+- **Authentication**: JSON Web Tokens (JWT) (future integration)
 
-```sh
+## 📌 Features
+- Project leaders can add project descriptions, technology stack, timeline, and funding requirements
+- Developers can explore and join projects based on their skills
+- Investors can browse projects and invest based on their interests
+- User-friendly and responsive interface for seamless interaction
+
+## 🏗️ Installation
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/AshrayVB30/CollabSpehere.git
 cd CollabSpehere
 ```
 
-## Install Dependencies
-
-Before running the application, make sure you have [Node.js](https://nodejs.org/) installed. Then, install the necessary dependencies:
-
-```sh
+### 2️⃣ Frontend Setup
+```bash
+cd frontend
 npm install
-```
-
-or if you're using Yarn:
-
-```sh
-yarn install
-```
-
-## Running the React App
-
-To start the development server, run:
-
-```sh
 npm start
+
 ```
 
-or with Yarn:
+## 📌 Future Enhancements
+- Backend integration with Node.js, Express.js, and MongoDB
+- Authentication & authorization using JWT
+- Real-time notifications & messaging
+- Advanced project analytics for leaders and investors
 
-```sh
-yarn start
-```
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork this repository, create a feature branch, and submit a pull request.
 
-The app should now be running at `http://localhost:3000/`.
+## 📄 License
+This project is licensed under the MIT License.
 
-## Building for Production
-
-To create an optimized production build, run:
-
-```sh
-npm run build
-```
-
-or with Yarn:
-
-```sh
-yarn build
-```
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests with improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
